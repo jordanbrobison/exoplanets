@@ -1,0 +1,3417 @@
+[
+  {
+    "column_name": "objectid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_name",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_letter",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "hostid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "hostname",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "hd_name",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "hip_name",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "tic_id",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "disc_pubdate",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "disc_year",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "disc_method",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "discoverymethod",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "disc_locale",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "disc_facility",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "disc_instrument",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "disc_telescope",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "disc_refname",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "ra",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "raerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "raerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "rasymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "rastr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "ra_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "ra_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "dec",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "decerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "decerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "decsymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "decstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "dec_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "dec_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "glon",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "glonerr1",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "glonerr2",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "glonsymerr",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "glonstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "glon_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "glon_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "glat",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "glaterr1",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "glaterr2",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "glatsymerr",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "glatstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "glat_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "glat_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "elon",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "elonerr1",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "elonerr2",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "elonsymerr",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "elonstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "elon_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "elon_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "elat",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "elaterr1",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "elaterr2",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "elatsymerr",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "elat_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "elat_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "elatstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbper",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbpererr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbpererr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbpersymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbperlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbperstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbperformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbper_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbper_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orblpererr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orblper",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orblpererr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orblpersymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orblperlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orblperstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orblperformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orblper_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orblper_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbsmax",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbsmaxerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbsmaxerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbsmaxsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbsmaxlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbsmaxstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbsmaxformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbsmax_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbsmax_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbincl",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbinclerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbinclerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbinclsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbincllim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbinclstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbinclformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbincl_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbincl_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbtper",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbtpererr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbtpererr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbtpersymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbtperlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbtperstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbtperformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbtper_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbtper_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbeccen",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbeccenerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbeccenerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbeccensymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbeccenlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbeccenstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbeccenformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbeccen_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbeccen_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_eqt",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_eqterr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_eqterr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_eqtsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_eqtlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_eqtstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_eqtformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_eqt_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_eqt_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_occdep",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_occdeperr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_occdeperr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_occdepsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_occdeplim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_occdepstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_occdepformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_occdep_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_occdep_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_insol",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_insolerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_insolerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_insolsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_insollim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_insolstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_insolformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_insol_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_insol_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_dens",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_denserr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_umagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_umagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_umaglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_umagsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_umagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_umagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_umag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_umag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_rmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_rmagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_rmagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_rmaglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_rmagsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_rmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_rmagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_rmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_rmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_imag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_imagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_imagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_imaglim",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_imagsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_imagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_imagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_imag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_imag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_zmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_zmagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_zmagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_zmaglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_zmagsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_zmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_zmagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_zmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_zmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w1mag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w1magerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w1magerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w1maglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w1magsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w1magstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w1magformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w1mag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w1mag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w2mag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w2magerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w2magerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w2maglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w2magsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w2magstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w2magformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w2mag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w2mag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w3mag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w3magerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w3magerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w3maglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w3magsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w3magstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w3magformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w3mag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w3mag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w4mag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w4magerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w4magerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w4maglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w4magsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w4magstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w4magformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w4mag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_w4mag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gmagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gmagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gmaglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gmagsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gmagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gaiamag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gaiamagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gaiamagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gaiamaglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gaiamagsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gaiamagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gaiamagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gaiamag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_gaiamag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_tmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_tmagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_tmagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_tmaglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_tmagsymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_tmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_tmagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_tmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_tmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_name",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_controv_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_orbtper_systemref",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_tranmid_systemref",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_metratio",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_spectype",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_spectype_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_spectype_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_plxlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kepmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kepmagerr1",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kepmagerr2",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kepmaglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kepmagsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kepmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kepformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kepmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kepmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_rotp",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_rotperr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_rotperr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_rotpsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_rotplim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_rotpstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_rotpformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_rotp_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_rotp_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_projobliq",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_projobliqerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_projobliqerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_projobliqsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_projobliqlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_projobliqstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_projobliqformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_denserr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_denssymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_denslim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_densstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_densformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_dens_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_dens_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandep",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandeperr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandeperr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandepsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandeplim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandepstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandepformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandep_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandep_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_tranmid",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_tranmiderr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_tranmiderr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_tranmidsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_tranmidlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_tranmidstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_tranmidformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_tranmid_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_tranmid_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandur",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandurerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandurerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandursymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandurlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandurstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandurformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandur_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trandur_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rvamp",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rvamperr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rvamperr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rvampsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rvamplim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rvampstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rvampformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rvamp_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rvamp_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radj",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radjerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radjerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radjsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radjlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radjstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radjformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radj_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radj_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rade",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radeerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radeerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radesymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radelim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radestr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_radeformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rade_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_rade_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratror",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratrorerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratrorerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratrorsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratrorlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratrorstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratrorformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratror_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratror_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratdor",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trueobliq",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trueobliqerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trueobliqerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trueobliqsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trueobliqlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trueobliqstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trueobliqformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trueobliq_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_trueobliq_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_log_rhk",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_log_rhkerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_log_rhkerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_log_rhksymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_log_rhklim",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_log_rhkstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_log_rhkformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_log_rhk_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_log_rhk_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_metn",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_icmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_icmagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_icmagerr2",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_icmagsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_icmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_icmagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_icmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_icmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_pubdate",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "dkin_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratdorerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratdorerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratdorsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratdorlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratdorstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratdorformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratdor_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ratdor_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_imppar",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_impparerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_impparerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_impparsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_impparlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_impparstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_impparformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_imppar_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_imppar_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassj",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassjerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassjerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassjsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassjlim",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassjstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassjformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassj_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassj_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmasse",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmasseerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmasseerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassesymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmasselim",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmassestr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmasseformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmasse_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_cmasse_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massj",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massjerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massjerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massjsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massjlim",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massjstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massjformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massj_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massj_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_masse",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_masseerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_masseerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massesymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_masselim",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_massestr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_masseformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_masse_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_masse_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassj",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassjerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassjerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassjsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassjlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassjstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassjformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassj_solnid",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassj_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmasse",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmasseerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmasseerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassesymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmasselim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassestr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmasseformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmasse_solnid",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmasse_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_bmassprov",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinij",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinijerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinijerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinijsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinijlim",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinijstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinijformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinij_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinij_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinie",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinieerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinieerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msiniesymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinielim",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msiniestr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinieformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinie_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_msinie_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_teff",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_tefferr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_tefferr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_teffsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_tefflim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_teffstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_teffformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_teff_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_teff_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_met",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_meterr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_meterr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_metsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_metlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_metstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_metformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_met_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_met_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_radv",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_radverr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_radverr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_radvsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_radvlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_radvstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_radvformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_radv_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_radv_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_vsin",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_vsinerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_vsinerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_vsinsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_vsinlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_vsinstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_vsin_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_vsin_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_vsinformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_lum",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_lumerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_lumerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_lumsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_lumlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_lumstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_lumformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_lum_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_lum_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_logg",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_loggerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_loggerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_loggsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_logglim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_loggstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_loggformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_logg_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_logg_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_age",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_ageerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_ageerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_agesymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_agelim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_agestr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_ageformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_age_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_age_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_mass",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_masserr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_masserr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_masssymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_masslim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_massstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_massformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_mass_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_mass_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_dens",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_denserr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_denserr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_denssymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_denslim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_densstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_densformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_dens_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_dens_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_rad",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_raderr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_raderr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_radsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "st_radlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_radstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_radformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "st_rad_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "st_rad_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "systemid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "ttv_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "ptv_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "tran_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "rv_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "ast_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "obm_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "micro_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "etv_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "ima_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pul_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "disc_refid",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_snum",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pnum",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_mnum",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_nphot",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_nrvc",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "st_nspec",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_nespec",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ntranspec",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_nnotes",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pm",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmsymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmlim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pm_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pm_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmra",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmraerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmraerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmrasymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmralim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmrastr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmraformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmra_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmra_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmdec",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmdecerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmdecerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmdecsymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmdeclim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmdecstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmdecformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmdec_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_pmdec_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_plx",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_plxerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_plxerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_plxsymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_plxstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_plxformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_plx_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_plx_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_dist",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_disterr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_disterr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_distsymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_distlim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_diststr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_distformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_dist_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_dist_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_bmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_bmagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_bmagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_bmaglim",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_bmagsymerr",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_bmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_bmagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_bmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_bmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_vmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_vmagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_vmagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_vmaglim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_vmagsymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_vmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_vmagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_vmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_vmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_jmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_jmagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_jmagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_jmaglim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_jmagsymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_jmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_jmagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_jmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_jmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_hmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_hmagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_hmagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_hmaglim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_hmagsymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_hmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_hmagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_hmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_hmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kmag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kmagerr1",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kmagerr2",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kmaglim",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kmagsymerr",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kmagstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kmagformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kmag_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_kmag_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "sy_umag",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_projobliq_solnid",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_projobliq_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "x",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "y",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "z",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "htm20",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "gaia_dr2_id",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "gaia_dr3_id",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "cb_flag",
+    "datatype": "int",
+    "description": ""
+  },
+  {
+    "column_name": "pl_angsep",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_angseperr1",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_angseperr2",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_angseplim",
+    "datatype": "double",
+    "description": ""
+  },
+  {
+    "column_name": "pl_angsepformat",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_angsepstr",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_angsepsymerr",
+    "datatype": "TEXT",
+    "description": ""
+  },
+  {
+    "column_name": "pl_angsep_reflink",
+    "datatype": "char",
+    "description": ""
+  },
+  {
+    "column_name": "pl_ndispec",
+    "datatype": "int",
+    "description": ""
+  }
+]
